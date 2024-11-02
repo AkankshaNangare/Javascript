@@ -118,11 +118,23 @@
 
 
 
-async function getData() {
-    // get req -async
-    let response = await fetch("https:jsonplaceholder.typicode.com/posts");
-    let data = await response.json;
-    // console.log(response);
-    console.log(data);
+// async function getData() {
+//     // get req -async
+//     let response = await fetch("https:jsonplaceholder.typicode.com/posts");
+//     let data = await response.json;
+//     // console.log(response);
+//     console.log(data);
+// }
+// getData();
+
+
+function init(){
+    let name = "Mozilla";
+    function displayName(){
+        let name ="akanksha";
+    console.log(name);
+    }
+    displayName();
+
 }
-getData();
+init(); 
